@@ -1,0 +1,5 @@
+def rep(x)
+    y=str(x)
+    return y.replace('0','5')
+x=int(input("Enter number"))
+rep(x)
